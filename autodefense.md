@@ -48,10 +48,10 @@ Pour éviter ce genre d'attaque, il faut utiliser *Tor*.
 ### Attaque côté serveur
 
 Tu ne peux pas faire grand-chose côté serveur, comme il s'agit d'ordinateurs gérés par d'autres personnes.
-Donc il faut être conscient qu'on ne peux à priori pas leur faire confiance, et que les serveurs savent à peu près tout ce que tu fais quand tu te connectes chez eux.
+Il faut être conscient qu'on ne peux à priori pas leur faire confiance, et que les serveurs savent à peu près tout ce que tu fais quand tu te connectes chez eux.
 
 Les facebook, google et autres enregistrent tout ce que tu fais chez eux et sont tenu par la loi américaine de donner ces infos aux espions américains.
-À priori ils donnent pas toutes les infos aux autres pays, mais bon ça ne veux pas dire que ça n'arrive pas.
+À priori ils ne donnent pas toutes les infos aux autres pays, mais bon ça ne veux pas dire que ça n'arrive pas.
 
 Il faut garder en tête que par ce biais là, aucune chose de ce que tu fais sur le net ne peut être vraiment cachée (à moins d'être un nerd de la cryptographie…).
 Tout le jeu sera de faire en sorte que les traces que tu laisses ne peuvent pas remonter jusqu'à toi.
@@ -61,9 +61,10 @@ Tout le jeu sera de faire en sorte que les traces que tu laisses ne peuvent pas 
 *Tor* est un logiciel qu'il faut installer sur ton ordi.
 Son fonctionnement est assez complexe, mais en gros ça permet deux choses :
 
-- Crypter les connexions que tu fais avec le net. Ça veut dire que les gens qui contrôlent les tuyaux ne peuvent pas voir ce que tu fais.
+- **Crypter les connexions que tu fais avec le net.**
+  Ça veut dire que les gens qui contrôlent les tuyaux ne peuvent pas voir ce que tu fais.
   Ils voient juste que tu fais quelque chose, mais ne savent pas sur quel site tu vas, à qui tu écris ou ce que tu écris.
-- Anonymiser ta connexion du point de vue du serveur.
+- **Anonymiser ta connexion du point de vue du serveur.**
   Ça veut dire que le serveur ne sait pas qui tu es ni d'où tu te connectes.
   Il sait juste que tu utilise *Tor* pour te connecter à son site.
   Par contre ça ne l'empêche pas de voir ce que tu fais sur son site.
@@ -94,7 +95,7 @@ Il faut juste créer son compte en utilisant le navigateur de *Tor*, et ne jamai
 Pour que ça marche il faut faire très attention.
 Il suffit de te connecter *une seule fois* sans passer par *Tor* pour établir un lien avec toi, et du coup griller complètement le compte.
 
-Ça règle le problème du côté technique, mais le plus dur est de ne pas se faire griller par des moyens détournés.
+Ce système règle le problème du côté technique, mais ça reste difficile de ne pas se faire griller par des moyens détournés.
 Il ne faut pas oublier que même si l'adresse est anonyme, les méchants pourraient peut-être avoir accès aux contenus des messages.
 Il ne faut donc rien écrire qui permette d'établir un lien avec toi.
 
@@ -145,7 +146,7 @@ Chaque service laisse des traces qui peuvent ensuite être analysées et recoup�
 Tu as de toute façon déjà plein d'infos sur toi dans tous ces systèmes, à partir du moment où tu utilises un téléphone ou internet.
 
 Mais au final les choses ne sont pas si sombres, *Tor* fonctionne bien.
-Ce système existe depuis plusieurs années, il est utilisé par plein de militants à travers le monde, mais aussi par toutes sortes de trafiquants sans que les gens ne se fassent attraper.
+Ce système existe depuis plusieurs années, il est utilisé par plein de militants à travers le monde, mais aussi par toutes sortes de trafiquants, sans que les gens ne se fassent attraper.
 Enfin ceux qui se font attraper se font avoir par des moyens détournés…
 Du coup il faut bien faire attention à ce que les "identités anonymes" que tu te crées avec *Tor* soient complètement détachées du reste.
 
