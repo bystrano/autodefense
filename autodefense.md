@@ -2,7 +2,7 @@
 
 ## Les bases
 
-Pour commencer il faut bien comprendre quelques bases du fonctionnement le net.
+Pour commencer il faut bien comprendre quelques bases du fonctionnement du net.
 On ne peux jamais avoir une sécurité totale dès qu'on utilise un ordinateur, et tous les outils qu'on peux utiliser sont limités.
 Il faut donc comprendre un minimum comment ça marche pour savoir contre quoi on se protège (ou pas).
 
