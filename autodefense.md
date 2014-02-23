@@ -13,7 +13,7 @@ les infos) et **le serveur** (l'ordi du site auquel tu te connectes,
 géré par le site).
 
 Pour se protéger sur le net il faut à chaque fois penser à ces 3 niveaux.
-Il peux y avoir différents types de problème suivant le niveau auquel on se place, et ça implique à chaque fois des choses différentes.
+Il peux y avoir différents types de problèmes suivant le niveau auquel on se place, et ça implique à chaque fois des choses différentes.
 
 ### Attaque au niveau du client
 
@@ -22,13 +22,13 @@ que tu fais.
 Un méchant peux facilement installer sur ton ordi un programme qui enregistre tout.
 Chaque touche de clavier et chaque clic est enregistré, et les méchants peuvent même voir ce qui se passe sur ton écran, allumer ta webcam ou ton micro sans que tu ne t'en rendes compte.
 
-Si ça arrive tu es complètement à poil, et tout ce que tu peux faire d'autre pour la sécurité ne servira à rien.
+Si ça arrive, ton ordi est surveillé en permanence, et tout ce que tu peux faire d'autre pour la sécurité ne servira à rien.
 Du coup il faut éviter ça à tout prix.
 
 Le plus important est de ne pas faire de choses compromettantes sur un ordi que tu ne contrôles pas.
-Si tu va au cybercafé, il faut partir du principe que les ordis sur place sont sous contrôle des méchants.
+Si tu vas au cybercafé, il faut partir du principe que les ordis sur place sont sous contrôle des méchants.
 Il faut donc plutôt utiliser un ordi à toi.
-Et si ton ordi passe entre les mains des méchants (fouille, visite à la maison en ton absence…), il faut aussi partir du principe qu'ils ont installé un virus dessus, parce que c'est vraiment le genre de trucs qu'ils font.
+Et si ton ordi passe entre les mains des méchants (fouille, visite à la maison en ton absence…), il faut aussi partir du principe qu'ils ont installé une porte dérobée dessus, parce que c'est vraiment le genre de trucs qu'ils font.
 
 Une façon plus efficace de se protéger est d'utiliser *Tails*, j'en parlerai plus plus tard.
 
@@ -41,18 +41,17 @@ Genre remplacer la page de login de facebook par une version maison qui intercep
 Ça semble tordu mais c'était un des trucs de Ben Ali en Tunisie, ils récupéraient le mot de passe facebook des gens avec cette astuce, puis s'en servaient pour les surveiller.
 
 La France a vendu des systèmes qui permettent de faire ce genre de coups fourrés à l'échelle de tout un pays un peu partout dans le Maghreb…
-Donc c'est aussi une vrai menace.
+Donc c'est une vrai menace.
 
 Pour éviter ce genre d'attaque, il faut utiliser *Tor*.
 
 ### Attaque côté serveur
 
-Tu ne peux pas faire grand-chose côté serveur, comme il s'agit d'ordis gérés par d'autres personnes.
-Mais il faut être conscient qu'on ne peux à priori pas leur faire confiance, et que les serveurs savent à peu près tout ce que tu fais quand tu te connectes chez eux.
+Tu ne peux pas faire grand-chose côté serveur, comme il s'agit d'ordinateurs gérés par d'autres personnes.
+Donc il faut être conscient qu'on ne peux à priori pas leur faire confiance, et que les serveurs savent à peu près tout ce que tu fais quand tu te connectes chez eux.
 
 Les facebook, google et autres enregistrent tout ce que tu fais chez eux et sont tenu par la loi américaine de donner ces infos aux espions américains.
-Je n'ai pas eu connaissance de cas où ceux-ci refileraient ces infos à d'autres pays, mais bon ça ne veux pas dire que ça n'arrive pas.
-Il vaut donc mieux être prudent.
+À priori ils donnent pas toutes les infos aux autres pays, mais bon ça ne veux pas dire que ça n'arrive pas.
 
 Il faut garder en tête que par ce biais là, aucune chose de ce que tu fais sur le net ne peut être vraiment cachée (à moins d'être un nerd de la cryptographie…).
 Tout le jeu sera de faire en sorte que les traces que tu laisses ne peuvent pas remonter jusqu'à toi.
@@ -62,9 +61,9 @@ Tout le jeu sera de faire en sorte que les traces que tu laisses ne peuvent pas 
 *Tor* est un logiciel qu'il faut installer sur ton ordi.
 Son fonctionnement est assez complexe, mais en gros ça permet deux choses :
 
-- Crypter les connections que tu fais avec le net. Ça veut dire que les gens qui contrôlent les tuyaux ne peuvent pas voir ce que tu fais.
+- Crypter les connexions que tu fais avec le net. Ça veut dire que les gens qui contrôlent les tuyaux ne peuvent pas voir ce que tu fais.
   Ils voient juste que tu fais quelque chose, mais ne savent pas sur quel site tu vas, à qui tu écris ou ce que tu écris.
-- Anonymiser ta connection du point de vue du serveur.
+- Anonymiser ta connexion du point de vue du serveur.
   Ça veut dire que le serveur ne sait pas qui tu es ni d'où tu te connectes.
   Il sait juste que tu utilise *Tor* pour te connecter à son site.
   Par contre ça ne l'empêche pas de voir ce que tu fais sur son site.
@@ -72,7 +71,7 @@ Son fonctionnement est assez complexe, mais en gros ça permet deux choses :
 Configurer *Tor* correctement est un peu compliqué mais heureusement on peut télécharger une version de firefox pré-configurée avec *Tor*, et qui de façon générale te protège de toute une série de crasses.
 Il suffit de télécharger le *Tor browser* sur [le site de Tor](https://www.torproject.org/download/download-easy.html.en), et l'installer sur ton ordi.
 Ensuite il faut ensuite utiliser ce navigateur pour aller sur le net.
-Toutes les connections que tu fais avec ce navigateur passeront automatiquement à travers le réseau *Tor*, et seront donc cryptées et anonymisées.
+Toutes les connexions que tu fais avec ce navigateur passeront automatiquement à travers le réseau *Tor*, et seront donc cryptées et anonymisées.
 Ça rend aussi tous les sites plus lents, mais c'est le prix à payer…
 
 Par contre, ça ne protège *pas* les connexions que tu pourrais faire avec un autre programme.
@@ -86,7 +85,7 @@ Comme ils ne voient pas ce que tu fais, ils ne peuvent plus décider de te cache
 
 ### adresses email anonymes
 
-Quand tu crées un compte email ou autre sur un site, même si tu n'as pas donné d'infos personnelles, le serveur voit depuis quelle endroit du monde tu te connectes.
+Quand tu crées un compte email ou autre sur un site, même si tu n'as pas donné d'infos personnelles, le serveur voit depuis quel endroit tu te connectes.
 Il possible de retrouver à quel réseau wifi précis tu es connecté.
 On peut donc assez facilement remonter jusqu'à toi.
 
@@ -110,12 +109,13 @@ Il faut ensuite redémarrer l'ordi en mode *Tails*.
 Tu as alors un système qui ressemble à windows, mais qui en fait est autre chose, un système très sécurisé.
 Les principaux avantages sont :
 
-- Le système utilise *Tor* pour *toutes* les connections qui tu fais avec l'ordi, il n'est donc pas possible de dévoiler ton identité par erreur.
+- Le système utilise *Tor* pour *toutes* les connexions qui tu fais avec l'ordi, il n'est donc pas possible de dévoiler ton identité par erreur.
 - Le système n'enregistre rien et ne laisse aucune trace.
   Quand tu éteins l'ordinateur et que tu retire la clé USB, l'ordi est exactement comme tu l'as trouvé, pas de traces de ton passage.
   Quand tu réutiliseras la clé pour mettre un ordi en mode *Tails*, il n'y aura aucune trace de ce que tu as fais la dernière fois, à part les fichiers que tu as explicitement sauvé.
 
 C'est un peu déroutant, et pas très pratique sous certains aspects, mais ça permet d'utiliser un ordi pas sûr sans souci.
+Tu peux aussi utiliser ça sur ton ordi, pour faire certaines choses sans laisser de traces.
 
 Tu peux te faire une clé USB *Tails* avec n'importe quelle clé, ou une carte SD.
 Il y a des instructions sur [le site de Tails](https://tails.boum.org/download/index.fr.html).
@@ -123,7 +123,6 @@ Il y a des instructions sur [le site de Tails](https://tails.boum.org/download/i
 ## Téléphone
 
 Tous les téléphones portables permettent aux autorités de localiser la position à quelques mètres près, et d'écouter ce qui se dit.
-Du coup ce sont toujours un problème.
 Comme pour les emails, c'est très difficile, voire impossible de ne laisser aucune trace, mais on peut essayer de se faire pister anonymement.
 Il faut commencer par trouver une carte SIM qui n'est pas liée à ton identité (genre carte prépayée, si le vendeur ne t'enregistres pas…).
 
@@ -132,8 +131,8 @@ Il ne suffit pas de juste changer de carte SIM quand tu veux être anonyme, parc
 Le mieux est d'avoir un deuxième téléphone qui est toujours éteint quand tu es chez toi (en retirant la batterie), et que tu n'utilises que quand tu es à un endroit où tu ne veux pas être pisté (et donc que ton autre téléphone est à la maison).
 
 Un autre problème avec les téléphones est qu'on peux allumer le micro à distance pour écouter ce qui se dit.
-Le plus simple pour éviter ça est de mettre les téléphones au congélateur ou au frigo.
-Les ondes passent mal, et on n'entend de toute façon pas ce qui se dit en dehors.
+Le plus simple pour éviter ça est de mettre les téléphones au congélateur ou au frigo quand tu veux avoir une conversation en privé.
+Les ondes passent mal, et on n'entend de toute façon pas ce qui se dit depuis l'intérieur.
 
 Et pour la confidentialité des conversations, il n'y a rien à faire, on peut les écouter de toutes façon…
 
@@ -154,5 +153,3 @@ Les méchants essaient de trouver un maximum d'infos sur qui a des contacts avec
 Ils se servent de ces infos pour reconnaître les réseaux de gens et identifier ceux qui les dérangent.
 Du coup il faut essayer de n'avoir des contacts entre "dérangeurs" qu'à travers des identités anonymes.
 Le but du jeu est d'éviter qu'on s'intéresse à toi à la base, puisqu'une fois que tu es dans le collimateur ça devient bien plus compliqué.
-
-
