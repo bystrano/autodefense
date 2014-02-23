@@ -4,7 +4,7 @@
 
 Pour commencer il faut bien comprendre quelques bases du fonctionnement le net.
 On ne peux jamais avoir une sécurité totale dès qu'on utilise un ordinateur, et tous les outils qu'on peux utiliser sont limités.
-Donc il faut comprendre un minimum comment ça marche pour savoir contre quoi on se protège (ou pas).
+Il faut donc comprendre un minimum comment ça marche pour savoir contre quoi on se protège (ou pas).
 
 Pour qu'un site ou autre programme fonctionne sur le net, il y a
 toujours 3 personnes en jeu : **le client** (ton ordi ou téléphone,
